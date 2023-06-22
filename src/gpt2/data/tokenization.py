@@ -7,7 +7,7 @@ _CHINESE_CHAR_RANGE = ('\u4e00-\u9fff\u3400-\u4dbf\U00020000-\U0002a6df'
                        '\U0002b820-\U0002ceaf\uf900-\ufaff'
                        '\U0002f800-\U0002fa1f')
 _PUNCTUATION_RANGE = '\\p{P}\x21-\x2f\x3a-\x40\x5b-\x60\x7b-\x7e'
-
+# ADD VIETNAMESE CHAR RANGE PLEASE
 
 class Tokenizer(object):
     def __init__(self,
